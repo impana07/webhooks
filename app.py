@@ -7,9 +7,9 @@ def subtract(a,b):
 
 class TestCalculator(unittest.TestCase):
   def test_add(self):
-    self.assertEqual(add(20,20),40)
+    self.assertEqual(add(20,50),70)
   def test_subtract(self):
-    self.assertEqual(subtract(20,10),10)
+    self.assertEqual(subtract(30,10),20)
   
 if __name__ == "__main__":
   print("Student Calculator Application")
